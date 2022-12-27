@@ -1257,13 +1257,13 @@ const mySPA = (function () {
     // Раздел игры: звуковой сигнал, если ответ верный
     this.playAudioCorrectAnswer = function () {
       let audioCorrectSound = document.createElement("AUDIO")
-      audioCorrectSound.innerHTML = `<source src="app/assets/correct-answer.mp3" type="audio/mp3">`
+      audioCorrectSound.innerHTML = `<source src="../assets/correct-answer.mp3" type="audio/mp3">`
       audioCorrectSound.play()
     }
     // Раздел игры: звуковой сигнал, если ответ неверный
     this.playAudioWrongAnswer = function () {
       let audioWrongSound = document.createElement("AUDIO")
-      audioWrongSound.innerHTML = `<source src="app/assets/wrong-answer.mp3" type="audio/mp3">`
+      audioWrongSound.innerHTML = `<source src="../assets/wrong-answer.mp3" type="audio/mp3">`
       audioWrongSound.play()
     }
     // Раздел игры: изменение номера текушего вопроса
