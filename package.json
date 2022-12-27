@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "My project on JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "JS",
+    "project"
+  ],
+  "author": "Yauheniya Tarasenka <eugeniatarasenko13@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  },
+  "devDependencies": {
+    "@types/browser-sync": "^2.26.3"
+  }
+}
