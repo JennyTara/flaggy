@@ -1778,14 +1778,12 @@ const mySPA = (function () {
           let randomArrayElement = arrayCountriesAll[randomFlagIndex]
 
           let answerCorrect = randomArrayElement
-          console.log(answerCorrect)
           let numberOfCorrectAnswer = Math.floor(Math.random() * 4)
 
           let arrayWrongCountries = arrayCountriesAll.filter(
             (country) => country !== randomArrayElement
           )
           let answers = []
-          console.log(answers)
 
           for (let i = 0; i < 4; i++) {
             if (i === numberOfCorrectAnswer) {
