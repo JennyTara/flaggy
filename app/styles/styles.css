@@ -665,8 +665,8 @@ font-size: 24px;
 }
 .loading.display {
   display: block;
-  position: absolute;
-  top: 90%;
+  position: fixed;
+  top: 84%;
   left: 49%;
 }
 @keyframes spin {
@@ -846,10 +846,7 @@ font-size: 24px;
 
 
 
-/* Large Devices, Wide Screens */
-@media (max-width : 1200px) {
-  
-}
+
 /* Medium Devices, Desktops */
 @media (max-width : 992px) {
   .learn-data-container {
@@ -860,9 +857,6 @@ font-size: 24px;
     margin: 20px 0;
   }
   .loading.display {
-    display: block;
-    position: absolute;
-    top: 90%;
     left: 48%;
   }
 }
@@ -937,10 +931,7 @@ font-size: 24px;
     min-width: 300px;
   }
   .loading.display {
-    display: block;
-    position: absolute;
-    top: 90%;
-    left: 48%;
+    left: 47%;
   }
 }
 /* Extra Small Devices, Phones */ 
@@ -1030,9 +1021,7 @@ font-size: 24px;
     min-width: 250px;
   }
   .loading.display {
-    display: block;
-    position: absolute;
-    top: 90%;
+    top:87%;
     left: 45%;
   }
 }
