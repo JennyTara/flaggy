@@ -6,5 +6,8 @@ Flaggy is a JavaScript SPA CRUD application that was created using the MVC archi
 
 ## Used tools/technologies/techniques
 
-Firebase(Realtime Database, Authentification); CSS/JavaScript/SVG-animations; REST API (https://restcountries.com/); AJAX.
+- Firebase(Realtime Database, Authentification); 
+- CSS/JavaScript/SVG-animations; 
+- REST API (https://restcountries.com/); 
+- AJAX.
 
